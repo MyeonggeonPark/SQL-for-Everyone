@@ -14,7 +14,7 @@ FROM employees;
 SELECT DISTINCT job_id
 FROM employees;
 
-SELECT employee_id AS »ç¿ø¹øÈ£, first_name AS ÀÌ¸§, last_name AS ¼º
+SELECT employee_id AS ì‚¬ì›ë²ˆí˜¸, first_name AS ì´ë¦„, last_name AS ì„±
 FROM employees;
 
 SELECT employee_id, first_name||last_name
@@ -28,9 +28,9 @@ FROM employees;
 SELECT employee_id, salary, salary+500, salary-100, (salary*1.1)/2
 FROM employees;
 
-SELECT employee_id AS »ç¿ø¹øÈ£,
-    salary AS ±Ş¿©,
-    salary+500 AS Ãß°¡±Ş¿©,
-    salary-100 AS ÀÎÇÏ±Ş¿©,
-    (salary*1.1)/2 AS Á¶Á¤±Ş¿©
+SELECT employee_id AS ì‚¬ì›ë²ˆí˜¸,
+    salary AS ê¸‰ì—¬,
+    salary+500 AS ì¶”ê°€ê¸‰ì—¬,
+    salary-100 AS ì¸í•˜ê¸‰ì—¬,
+    (salary*1.1)/2 AS ì¡°ì •ê¸‰ì—¬
 FROM employees;
